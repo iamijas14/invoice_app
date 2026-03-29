@@ -319,7 +319,7 @@ export default function InvoiceApp() {
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1, type: "spring", stiffness: 200, damping: 20 }}
-        className="max-w-4xl mx-auto bg-white rounded-2xl shadow-xl border border-gray-100 overflow-hidden"
+        className="max-w-4xl mx-auto bg-white rounded-none shadow-none border-0 md:rounded-2xl md:shadow-xl md:border md:border-gray-100 overflow-hidden"
       >
         {/* Section 1: Customer Details */}
         <div className="p-6 md:p-8 border-b border-gray-100">
@@ -357,7 +357,7 @@ export default function InvoiceApp() {
                   readOnly={!isAddressEditable}
                   placeholder="Select a customer to auto-fill"
                   rows={2}
-                  className={`input-field flex-1 resize-none ${!isAddressEditable ? "bg-gray-50 cursor-not-allowed" : "bg-white"}`}
+                  className={`input-field flex-1 resize-none max-h-[100px] md:max-h-none ${!isAddressEditable ? "bg-gray-50 cursor-not-allowed" : "bg-white"}`}
                 />
                 {selectedCustomerId && (
                   <motion.button
@@ -445,7 +445,7 @@ export default function InvoiceApp() {
             </span>
             Invoice Details
           </h2>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
             <div>
               <label className="label-text">Bill No.</label>
               <input
@@ -569,7 +569,7 @@ export default function InvoiceApp() {
           {/* Items Table */}
           {selectedItems.length > 0 && (
             <div className="overflow-x-auto">
-              <table className="w-full text-sm">
+              <table className="w-full text-sm min-w-[600px]">
                 <thead>
                   <tr className="bg-gray-50 text-gray-600">
                     <th className="px-3 py-2.5 text-left font-semibold rounded-tl-lg w-10">
@@ -727,22 +727,22 @@ export default function InvoiceApp() {
         )}
 
         {/* Section 5: Actions */}
-        <div className="p-6 md:p-8 flex flex-col sm:flex-row justify-between items-center gap-4">
+        <div className="p-6 md:p-8 flex flex-col sm:flex-row justify-between items-stretch sm:items-center gap-4">
           <motion.button
             whileHover={isFormEmpty ? {} : { scale: 1.02 }}
             whileTap={isFormEmpty ? {} : { scale: 0.98 }}
             onClick={resetForm}
             disabled={isFormEmpty}
-            className="text-sm text-gray-500 hover:text-gray-700 transition-colors underline underline-offset-2 disabled:opacity-30 disabled:cursor-not-allowed disabled:no-underline"
+            className="text-sm text-gray-500 hover:text-gray-700 transition-colors underline underline-offset-2 disabled:opacity-30 disabled:cursor-not-allowed disabled:no-underline order-last sm:order-first"
           >
             Reset Form
           </motion.button>
-          <div className="flex gap-3">
+          <div className="flex flex-col sm:flex-row gap-3">
             <motion.button
               whileHover={{ scale: 1.03 }}
               whileTap={{ scale: 0.97 }}
               onClick={handlePreview}
-              className="px-6 py-2.5 bg-white border-2 border-indigo-200 text-indigo-600 rounded-xl font-semibold text-sm hover:bg-indigo-50 hover:border-indigo-300 transition-colors"
+              className="px-6 py-2.5 bg-white border-2 border-indigo-200 text-indigo-600 rounded-xl font-semibold text-sm hover:bg-indigo-50 hover:border-indigo-300 transition-colors text-center w-full sm:w-auto"
             >
               Preview Invoice
             </motion.button>
@@ -751,7 +751,7 @@ export default function InvoiceApp() {
               whileTap={{ scale: 0.97 }}
               onClick={handleGenerate}
               disabled={isGenerating}
-              className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-semibold text-sm hover:bg-indigo-700 transition-colors shadow-lg shadow-indigo-200 disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2"
+              className="px-6 py-2.5 bg-indigo-600 text-white rounded-xl font-semibold text-sm hover:bg-indigo-700 transition-colors shadow-lg shadow-indigo-200 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 w-full sm:w-auto"
             >
               {isGenerating ? (
                 <>
