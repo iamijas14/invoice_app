@@ -192,8 +192,8 @@ export default function InvoicePreview({ data, onClose, onGenerate }: Props) {
             </div>
 
             {/* Subtotal + Tax Summary */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-0 border-b border-[#1e3a5f]">
-              <div className="p-3 md:border-r border-b md:border-b-0 border-[#1e3a5f]/30">
+            <div className="flex flex-col-reverse md:grid md:grid-cols-2 gap-0 border-b border-[#1e3a5f]">
+              <div className="p-3 md:border-r border-t md:border-t-0 border-[#1e3a5f]/30">
                 <p className="text-[10px] font-bold text-[#1e3a5f] mb-1">
                   Amount (in words):
                 </p>
