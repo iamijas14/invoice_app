@@ -104,6 +104,18 @@ export const DEFAULT_CUSTOMERS: Customer[] = [
     gstin: "29ADQPJ0408E1ZO",
     address: "114/9 Ranganatha Colony, Mysore Road Cross, Bangalore, Bengaluru Urban, Karnataka, 560039",
   },
+  {
+    id: "cust-14",
+    name: "SHREE POLYMERS",
+    gstin: "29GBQPM2345H1Z5",
+    address: "Ground Floor, Plot No 5/3 SY No 1248/33/2/1185P, Thagachaguppe Village Kengeri Hobli, Bengaluru Urban, Karnataka, 560059",
+  },
+  {
+    id: "cust-15",
+    name: "VIHAAN TECHNOPLAST PRIVATE LIMITED",
+    gstin: "29AALCV7530L1ZM",
+    address: "No 145/4 Kambipura, Kumbalgude Post, Kengeri, Bengaluru - 560074",
+  },
 ];
 
 export const ITEMS = [
