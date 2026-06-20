@@ -46,9 +46,9 @@ export const DEFAULT_CUSTOMERS: Customer[] = [
   },
   {
     id: "cust-4",
-    name: "K S PLASTICS",
-    gstin: "29BCIPS8158J1ZQ",
-    address: "No 9, Nayandahalli Industrial Estate, Mysore Road Cross Bangalore, Bengaluru Urban, Karnataka, 560039",
+    name: "K S POLYMERS",
+    gstin: "29BELPA0002A1ZH",
+    address: "NO 02, 1ST CROSS, MYSORE ROAD,NAYANDAHALLI, Nayandahalli,RAILWAT STAION ROAD, Bengaluru, Bengaluru Urban, Karnataka, 560039",
   },
   {
     id: "cust-5",
