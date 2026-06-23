@@ -115,6 +115,12 @@ export const DEFAULT_CUSTOMERS: Customer[] = [
     name: "AONE POLYMERS",
     gstin: "29HWEPS8458D1ZT",
     address: "1st Floor, 12, 2nd Main Road, Azeez Sait Industrial Estate, Rangwall Paints, Nayandahalli, Bengaluru, Bengaluru Urban, Karnataka, 560039",
+  },
+  {
+    id: "cust-16",
+    name: "MSK ENTERPRISES",
+    gstin: "29DTXPK2097E1ZZ",
+    address: "Ground Floor, No. 9/1 Ward No. 41, Hanumanthappa Layout Mysore Road, Paragon, Nayandahalli, Bengaluru, Bengaluru Urban, Karnataka, 560039",
   }
 ];
 
