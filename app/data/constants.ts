@@ -100,9 +100,9 @@ export const DEFAULT_CUSTOMERS: Customer[] = [
   },
   {
     id: "cust-13",
-    name: "SHREE POLYMERS",
-    gstin: "29GBQPM2345H1Z5",
-    address: "Ground Floor, Plot No 5/3 SY No 1248/33/2/1185P, Thagachaguppe Village Kengeri Hobli, Bengaluru Urban, Karnataka, 560059",
+    name: "A K PLASTICS",
+    gstin: "29BQIPA7534A1Z4",
+    address: "Ground Floor, Plot No 5/3 SY No 1248/33/2/1185P, A K Plastics, Thagachaguppe Village Kengeri Hobli, Kambalgaodu Post, Thagachaguppe, Bengaluru, Bengaluru Urban, Karnataka, 560074",
   },
   {
     id: "cust-14",
