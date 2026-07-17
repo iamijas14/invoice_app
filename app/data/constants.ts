@@ -121,6 +121,12 @@ export const DEFAULT_CUSTOMERS: Customer[] = [
     name: "MSK ENTERPRISES",
     gstin: "29DTXPK2097E1ZZ",
     address: "Ground Floor, No. 9/1 Ward No. 41, Hanumanthappa Layout Mysore Road, Paragon, Nayandahalli, Bengaluru, Bengaluru Urban, Karnataka, 560039",
+  },
+  {
+    id: "cust-17",
+    name: "ANWITHA POLYMER",
+    gstin: "29HDGPS7840A1Z8",
+    address: "NO 120/22, MYSORE ROAD CROSS, OPP MANEY ESTATE, KUMBALAGUDU INDUSTRIAL AREA BANGALORE, Bengaluru Rural, Karnataka, 560074",
   }
 ];
 
