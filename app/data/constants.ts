@@ -127,6 +127,12 @@ export const DEFAULT_CUSTOMERS: Customer[] = [
     name: "ANWITHA POLYMER",
     gstin: "29HDGPS7840A1Z8",
     address: "NO 120/22, MYSORE ROAD CROSS, OPP MANEY ESTATE, KUMBALAGUDU INDUSTRIAL AREA BANGALORE, Bengaluru Rural, Karnataka, 560074",
+  },
+  {
+    id: "cust-18",
+    name: "SHREE THIRUMALA INDUSTRIES CORPORATION",
+    gstin: "29ADGFS0483A1Z7",
+    address: "46, 1st PHASE KIADB INDUSTRIAL AREA, YADEHALLI VILLAGE, Bengaluru Rural, Karnataka, 562111",
   }
 ];
 
