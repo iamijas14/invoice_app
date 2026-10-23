@@ -133,6 +133,18 @@ export const DEFAULT_CUSTOMERS: Customer[] = [
     name: "SHREE THIRUMALA INDUSTRIES CORPORATION",
     gstin: "29ADGFS0483A1Z7",
     address: "46, 1st PHASE KIADB INDUSTRIAL AREA, YADEHALLI VILLAGE, Bengaluru Rural, Karnataka, 562111",
+  },
+  {
+    id: "cust-19",
+    name: "K S PLASTICS",
+    gstin: "29BCIPS8158J1ZQ",
+    address: "No 9, Nayandahalli Industrial Estate, Mysore Road Cross Bangalore, Bengaluru Urban, Karnataka, 560039",
+  },
+  {
+    id: "cust-20",
+    name: "SRI SATHYA SAI POLYMARS",
+    gstin: "29AHUPS6432K1ZE",
+    address: "NO 34/1, BHADRAPPA INDUSTRIAL ESTATE MAGADI MAIN ROAD, KAMAKSHI PALYA BANGALORE, Bengaluru Urban, Karnataka, 560079",
   }
 ];
 
